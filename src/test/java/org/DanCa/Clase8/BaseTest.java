@@ -11,15 +11,13 @@ import java.time.Duration;
 
 public class BaseTest {
     private WebDriver driver;
-
     @BeforeMethod
     public void setup(){
         ChromeOptions options = new ChromeOptions();
-
         options.addArguments("start-maximized");
         options.addArguments("incognito");
         options.setPageLoadTimeout(Duration.ofSeconds(60));
-
+        options.addArguments("headless");
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
         this.driver = new ChromeDriver(options);
     }
