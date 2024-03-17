@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/Features",
         glue = {"org.DanCa.StepsDefinitions", "org.DanCa.Hooks"},
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@TEST-0001"
+        tags = "@TEST-LI002"
 )
 
 public class CucumberRunner extends AbstractTestNGCucumberTests {

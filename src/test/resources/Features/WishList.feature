@@ -2,7 +2,7 @@
 
 Característica: Lista de favoritos
 
-  @FAV-123
+  @TEST-FV001
   Escenario: Agregar producto a favoritos
     Dado que el usuario ingresa a la página de inicio
     Y el usuario se loguea en la aplicación

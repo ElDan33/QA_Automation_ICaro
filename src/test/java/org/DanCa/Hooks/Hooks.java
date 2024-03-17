@@ -9,7 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
@@ -60,7 +59,7 @@ public class Hooks {
         options.addArguments("start-maximized");
         options.addArguments("incognito");
         options.setPageLoadTimeout(Duration.ofSeconds(60));
-        options.addArguments("headless");
+        //options.addArguments("headless");
 
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
         return new ChromeDriver(options);

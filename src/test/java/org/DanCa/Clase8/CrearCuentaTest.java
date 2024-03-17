@@ -60,7 +60,7 @@ public class CrearCuentaTest extends BaseTest{
         WebElement continueButtonEl = getWebDriver().findElement(continueButtonBy);
         continueButtonEl.click();
 
-        By newAccCreatedBy = By.xpath("//p[text()='Congratulations! Your new account has been successfully created!']");
+        By newAccCreatedBy = By.xpath("//p[contains(text(),\"Congratulations!\")]");
         WebElement newAccCreatedEl = getWebDriver().findElement(newAccCreatedBy);
 
         Assert.assertTrue(newAccCreatedEl.isDisplayed());

@@ -10,10 +10,11 @@ public class AddToCartDefinitions {
 
     private CartPage cart;
 
-    AddToCartDefinitions(){
+    public AddToCartDefinitions(){
         this.cart = new CartPage(Hooks.getWebDriver());
     }
 
+    // ########## TEST-AC001 ##########
     @Cuando("el usuario agrega un producto al carrito")
     public void elUsuarioAgregaUnProductoAlCarrito() {
         cart.ingresarSeccionCamaras();

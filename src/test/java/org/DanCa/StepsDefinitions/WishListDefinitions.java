@@ -14,13 +14,13 @@ public class WishListDefinitions {
         this.favpage = new FavoritosPage(Hooks.getWebDriver());
     }
 
+    // ########## TEST-FV001 ##########
     @Cuando("el usuario agrega un producto a favoritos")
     public void elUsuarioAgregaUnProductoAFavoritos() {
         favpage.ingresarSeccionCamaras();
         favpage.agregarUnFavorito();
         favpage.clickWishList();
     }
-
 
     @Entonces("se valida que se agregó un producto en favoritos")
     public void seValidaQueSeAgregóUnProductoEnFavoritos() {

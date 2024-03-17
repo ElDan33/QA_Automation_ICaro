@@ -14,12 +14,9 @@ public class RegisterPage extends BasePage{
     private By confirmPassBy = By.id("input-confirm");
     private By agreeTermsBy = By.name("agree");
     private By submitBy = By.xpath("//input[@value=\"Continue\"]");
-
-    private By lengthInputError = By.xpath("//div[contains(text(),\"must be between\")]");
     private By emailInputError = By.xpath("//div[contains(text(),\"E-Mail Address does not appear\")]");
-
-
-
+    private By emailAlreadyReg = By.xpath("//div[contains(text(),\"E-Mail Address is already registered\")]");
+    private By passwordInputError = By.xpath("//div[contains(text(),\"Password must be between\")]");
     private By warning = By.xpath("//div[@id=\"account-register\"]/div[contains(text(),\" Warning\")]");
 
 
@@ -39,17 +36,31 @@ public class RegisterPage extends BasePage{
         sendKey(telephoneBy, telephone);
         sendKey(passwordBy, password);
         sendKey(confirmPassBy, password);
+
+    }
+
+    public void acceptTerms(){
         click(agreeTermsBy);
+    }
+
+    public void next(){
         click(submitBy);
     }
 
-    public boolean formularioCompleto(){
+    public boolean emailHasError(){
+        return isDisplayed(emailInputError);
+    }
 
-        if(isDisplayed(lengthInputError) || isDisplayed(warning) || isDisplayed(emailInputError)){
-            return false;
-        } else {
-            return true;
-        }
+    public boolean emailAlreadyRegistered(){
+        return isDisplayed(emailAlreadyReg);
+    }
+
+    public boolean passwordHasError(){
+        return isDisplayed(passwordInputError);
+    }
+
+    public boolean warningIsDisplay(){
+        return isDisplayed(warning);
     }
 
 }

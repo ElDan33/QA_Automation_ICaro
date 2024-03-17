@@ -14,6 +14,7 @@ public class HomeDefinitions {
         this.homepage = new HomePage(Hooks.getWebDriver());
     }
 
+    // ########## TEST-HM001 ##########
     @Dado("que el usuario ingresa a la página de inicio")
     public void queElUsuarioIngresaAlaPaginaDeInicio() {
         Hooks.getWebDriver().get(Hooks.getProperty("url"));

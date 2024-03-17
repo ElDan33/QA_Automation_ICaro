@@ -1,7 +1,7 @@
 # language: es
 
   Característica: Carrito
-    @TEST-111
+    @TEST-AC001
     Escenario: Agregar producto al carrito válido
       Dado que el usuario ingresa a la página de inicio
       Y el usuario se loguea en la aplicación
