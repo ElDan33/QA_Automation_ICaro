@@ -20,4 +20,12 @@
   </tr>
 </table>
 
+<p style="display: inline;">
+  Cucumber Test Report:
+</p>
+
+[![CucumberReports: FinalQAAutomationReport](https://messages.cucumber.io/api/report-collections/791349be-8963-40d1-9c81-7f10bcebf89b/badge)](https://reports.cucumber.io/report-collections/791349be-8963-40d1-9c81-7f10bcebf89b)
+
+
+
 ##### By ElDan33
