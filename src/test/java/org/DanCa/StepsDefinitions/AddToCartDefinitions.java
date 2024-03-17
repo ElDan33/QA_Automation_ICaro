@@ -2,7 +2,7 @@ package org.DanCa.StepsDefinitions;
 
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Entonces;
-import org.DanCa.Clase9.Pages.CartPage;
+import org.DanCa.Pages.CartPage;
 import org.DanCa.Hooks.Hooks;
 import org.testng.Assert;
 

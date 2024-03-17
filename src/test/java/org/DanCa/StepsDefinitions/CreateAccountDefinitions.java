@@ -4,9 +4,9 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
-import org.DanCa.Clase9.Pages.HomePage;
-import org.DanCa.Clase9.Pages.NewAccountPage;
-import org.DanCa.Clase9.Pages.RegisterPage;
+import org.DanCa.Pages.HomePage;
+import org.DanCa.Pages.NewAccountPage;
+import org.DanCa.Pages.RegisterPage;
 import org.DanCa.Hooks.Hooks;
 import org.testng.Assert;
 

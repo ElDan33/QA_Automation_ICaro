@@ -4,9 +4,9 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import io.cucumber.java.es.Y;
-import org.DanCa.Clase9.Pages.HomePage;
-import org.DanCa.Clase9.Pages.LoginPage;
-import org.DanCa.Clase9.Pages.MyAccountPage;
+import org.DanCa.Pages.HomePage;
+import org.DanCa.Pages.LoginPage;
+import org.DanCa.Pages.MyAccountPage;
 import org.DanCa.Hooks.Hooks;
 import org.testng.Assert;
 

@@ -8,16 +8,3 @@ target/
 *.log
 
 drivers/
-
-main/java/org.DanCa/Clase1/
-main/java/org.DanCa/Clase2/
-main/java/org.DanCa/Clase3/
-main/java/org.DanCa/Clase4/
-main/java/org.DanCa/Clase7/
-main/java/org.DanCa/Practico1/
-
-
-test/java/org.DanCa/Clase7/
-test/java/org.DanCa/Clase8/
-test/java/org.DanCa/Clase9/
-test/java/org.DanCa/Clase10/

@@ -2,7 +2,7 @@ package org.DanCa.StepsDefinitions;
 
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
-import org.DanCa.Clase9.Pages.HomePage;
+import org.DanCa.Pages.HomePage;
 import org.DanCa.Hooks.Hooks;
 import org.testng.Assert;
 
